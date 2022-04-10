@@ -1,0 +1,42 @@
+//*Varijabla none za A element*//
+$decoration_none:none;
+$color-gray: gray;
+
+//*Zumiranje elementa 
+$zoom: scale(1.1);
+
+//*Boja welcome dela stranice (prvi deo posle navigacije) i predzadnjeg dela
+$background-gradient: linear-gradient(to right top, #bfe5fd, #c0e5fd, #c2e5fd, #c3e5fd, #c4e5fd, #c5e5fd, #c5e6fe, #c6e6fe, #c6e7fe, #c6e8ff, #c6e8ff, #c6e9ff);
+
+//*Boja nav-a ispravka zbog donje linije koja se videla kao bela (fix)
+$background-gradient-nav: linear-gradient(to right bottom, #bfe5fd, #c0e5fd, #c2e5fd, #c3e5fd, #c4e5fd, #c5e5fd, #c5e6fe, #c6e6fe, #c6e7fe, #c6e8ff, #c6e8ff, #c6e9ff);
+
+//*Boja footera
+$footerclr:#3789FF;
+
+//* Width postavke
+$width20:20%;
+$width25:25%;
+$width30:30%;
+$width40:40%;
+$width50:49%;
+$width70:70%;
+$width60:60%;
+$width80:80%;
+$width100:100%;
+
+//*Velicine fonta
+$fnt25:25px;
+$fnt18:18px;
+
+//*Kursori
+$grabbing: pointer;
+
+
+//*Mobilni telefoni
+$mobile: 576px;
+//*Tablet
+$tablet: 768px;
+//*Laptop 
+$laptop: 992px;
+

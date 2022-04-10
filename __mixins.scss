@@ -1,0 +1,213 @@
+
+
+//*Navigacioni linkovi*/
+@mixin navigation-text {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #272D4E;
+}
+
+//*Specifikacije levog dugmeta*/
+@mixin navigation-left-button {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #3789FF;
+}
+
+//*Specifikacije desnog dugmeta*/
+@mixin navigation-right-button {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+
+//*Levo navigaciono dugme*/
+@mixin left-navigation-button {
+    padding: 13px 16px 14px 14px;
+    border: #3789FF solid;
+    border-radius: 2.5px;
+}
+@mixin left-hover {
+    background-color: #949bd85d;
+    cursor: grabbing;
+    
+}
+//*Specifikacije teksta levog navigacionog dugmeta*/
+@mixin button-left-text {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #3789FF;
+    
+}
+
+//*Desno navigaciono dugme*/
+@mixin right-navigation-button {
+    padding: 13px 16px 14px 14px;
+    background-color: #3789FF;
+    border-radius: 2.5px;
+}
+
+@mixin right-hover {
+    background-color: #004da5d7;
+    cursor: grabbing;  
+}
+
+//*Specifikacije teksta desnog navigacionog dugmeta*/
+@mixin button-right-text {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+    
+}
+
+//*Najveci heding
+@mixin bigest-heading {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 70px;
+color: #272D4E;
+
+
+}
+
+//* Font, fontstyle,fontweight vecine paragrafa uz izmene
+
+@mixin fnt-fstl-fwght-fclr_paragraf ($fw:500, $color:#94A2B3) {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: $fw;
+color: $color;
+  
+}
+
+//*Font mali unutar background white pravougaonika kod crnca
+@mixin fontspecs_black {
+    
+}
+
+//*Button tekst linka unutra
+@mixin button-link_white {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+    
+}
+
+//* Zelena dugmad u background-u belom kod crnca i jos negde ako ima
+
+@mixin green-button {
+background: #00A300;
+border-radius: 5px;
+padding: 10px 10px;
+}
+
+//*Link tekst unutar zelenih dugmica 
+
+@mixin link-small_button {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+}
+
+//*Narandzasta dugmad
+@mixin orange-button {
+    background: #FF5722;
+    border-radius: 5px;
+    }
+
+//*Oker dugmad 
+@mixin yellow-button {
+    background: #FEBA06;
+    border-radius: 5px;
+    
+}
+
+//*Narandzasta dugmad
+@mixin orange-button_second_pair ($wdth:10%){
+    background: #FFBA49;
+    border-radius: 5px;
+    padding: 20px 75px;
+    width: $wdth;
+}
+
+//*Tekst naslova odredjenih sekcija
+
+@mixin heading-text ($fntwght:600,$fntsze:55px,$linhgt:70px,$clr:#272D4E) {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: $fntwght;
+font-size: $fntsze;
+line-height: $linhgt;
+text-align: center;
+color: $clr;
+}
+
+//*Paragraf ispod naslova odredjenih sekcija
+@mixin paragraf-under-heading ($fntwght:500,$clr:#94A2B3,$linhgt:30px) {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: $fntwght;
+font-size: 18px;
+line-height: $linhgt;
+text-align: center;
+color: $clr;
+}
+
+//*Linkovi ispod paragrafa
+@mixin  links {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #299EF3;
+}
+
+//*Tekst u footer-u
+@mixin  footer-text {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+text-transform: uppercase;
+color: white;
+    
+}
+
+
+
+
+
+
+
+
+
